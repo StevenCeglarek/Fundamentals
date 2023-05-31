@@ -1,129 +1,128 @@
 ﻿// ------------------------------------------ FUNDAMENTALS 1 ------------------------------------------
-//// print from 1 to 255
-//for (int i = 1; i <= 255; i++)
-//{
-//    Console.WriteLine(i);
-//}
+// print from 1 to 255
+for (int i = 1; i <= 255; i++)
+{
+    Console.WriteLine(i);
+}
 
-//// Generate 5 random numbers between 10 and 20
-//Random rand = new Random();
-//for (int i = 0; i < 5; i++)
-//{
-//    long randNum = rand.NextInt64(10, 20);
-//    Console.WriteLine(randNum);
-//}
+// Generate 5 random numbers between 10 and 20
+Random rand = new Random();
+for (int i = 0; i < 5; i++)
+{
+    long randNum = rand.NextInt64(10, 20);
+    Console.WriteLine(randNum);
+}
 
-//// Modify the previous loop to add the random values together and print the sum after the loop finishes.
-//long sum = 0;
-//for (int i = 0; i < 5; i++)
-//{
-//    long randNum = rand.NextInt64(10, 20);
-//    sum = randNum + sum;
-//}
-//Console.WriteLine(sum);
+// Modify the previous loop to add the random values together and print the sum after the loop finishes.
+long sum = 0;
+for (int i = 0; i < 5; i++)
+{
+    long randNum = rand.NextInt64(10, 20);
+    sum = randNum + sum;
+}
+Console.WriteLine(sum);
 
-//// Create a new loop that prints all values from 1 to 100 that are divisible by 3 OR 5, but NOT both.
-//for (int i = 1; i < 100; i++)
-//{
-//    if (i % 3 == 0 && i % 5 == 0)
-//    {
-//        continue;
-//    }
-//    else if (i % 3 == 0)
-//    {
-//        Console.WriteLine(i);
-//    }
-//    else if (i % 5 == 0)
-//    {
-//        Console.WriteLine(i);
-//    }
-//}
+// Create a new loop that prints all values from 1 to 100 that are divisible by 3 OR 5, but NOT both.
+for (int i = 1; i < 100; i++)
+{
+    if (i % 3 == 0 && i % 5 == 0)
+    {
+        continue;
+    }
+    else if (i % 3 == 0)
+    {
+        Console.WriteLine(i);
+    }
+    else if (i % 5 == 0)
+    {
+        Console.WriteLine(i);
+    }
+}
 
-//// Modify the previous loop to print "Fizz" for multiples of 3 and "Buzz" for multiples of 5.
-//for (int i = 1; i < 100; i++)
-//{
-//    if (i % 3 == 0 && i % 5 == 0)
-//    {
-//        continue;
-//    }
-//    else if (i % 3 == 0)
-//    {
-//        Console.WriteLine("Fizz");
-//    }
-//    else if (i % 5 == 0)
-//    {
-//        Console.WriteLine("Buzz");
-//    }
-//}
+// Modify the previous loop to print "Fizz" for multiples of 3 and "Buzz" for multiples of 5.
+for (int i = 1; i < 100; i++)
+{
+    if (i % 3 == 0 && i % 5 == 0)
+    {
+        continue;
+    }
+    else if (i % 3 == 0)
+    {
+        Console.WriteLine("Fizz");
+    }
+    else if (i % 5 == 0)
+    {
+        Console.WriteLine("Buzz");
+    }
+}
 
-//// Modify the previous loop to print "Fizz" for multiples of 3 and "Buzz" for multiples of 5.
-//for (int i = 1; i < 100; i++)
-//{
-//    if (i % 3 == 0 && i % 5 == 0)
-//    {
-//        Console.WriteLine("FizzBuzz");
-//    }
-//    else if (i % 3 == 0)
-//    {
-//        Console.WriteLine("Fizz");
-//    }
-//    else if (i % 5 == 0)
-//    {
-//        Console.WriteLine("Buzz");
-//    }
-//}
+// Modify the previous loop to print "Fizz" for multiples of 3 and "Buzz" for multiples of 5.
+for (int i = 1; i < 100; i++)
+{
+    if (i % 3 == 0 && i % 5 == 0)
+    {
+        Console.WriteLine("FizzBuzz");
+    }
+    else if (i % 3 == 0)
+    {
+        Console.WriteLine("Fizz");
+    }
+    else if (i % 5 == 0)
+    {
+        Console.WriteLine("Buzz");
+    }
+}
 
 // ------------------------------------------ FUNDAMENTALS 2 ------------------------------------------
 
 // Three Basic Arrays
 
-//int[] oneThruNine = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+int[] oneThruNine = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
-//string[] names = { "Tim", "Martin", "Nikki", "Sara" };
+string[] names = { "Tim", "Martin", "Nikki", "Sara" };
 
-//bool[] boolList = new bool[10];
-//for (int i = 0; i < 10; i++)
-//{
-//    if(i % 2 == 0)
-//    {
-//        boolList[i] = true;
-//    }
-//    else
-//    {
-//        boolList[i] = false;
-//    }
-//}
-//foreach (var item in boolList)
-//{
-//    Console.WriteLine(item);
-//}
+bool[] boolList = new bool[10];
+for (int i = 0; i < 10; i++)
+{
+    if (i % 2 == 0)
+    {
+        boolList[i] = true;
+    }
+    else
+    {
+        boolList[i] = false;
+    }
+}
+foreach (var item in boolList)
+{
+    Console.WriteLine(item);
+}
 
-//List<string> flavorList = new List<string>
-//{
-//    "Chocolate",
-//    "Vanilla",
-//    "Cookie Dough",
-//    "Strawberry",
-//    "White Chocolate"
-//};
-//Console.WriteLine(flavorList.Count);
-//Console.WriteLine(flavorList[2]);
-//flavorList.RemoveAt(2);
-//Console.WriteLine(flavorList.Count);
+List<string> flavorList = new List<string>
+{
+    "Chocolate",
+    "Vanilla",
+    "Cookie Dough",
+    "Strawberry",
+    "White Chocolate"
+};
+Console.WriteLine(flavorList.Count);
+Console.WriteLine(flavorList[2]);
+flavorList.RemoveAt(2);
+Console.WriteLine(flavorList.Count);
 
-//Dictionary<string, string> dictList = new Dictionary<string, string>();
+Dictionary<string, string> dictList = new Dictionary<string, string>();
 
-//for (int i = 0; i < names.Length; i++)
-//{
-//    Random rand = new Random();
-//    long randInt = rand.Next(1, 4);
-//    int convert = (int)randInt;
-//    dictList.Add(names[i], flavorList[convert]);
-//}
-//foreach (var item in dictList)
-//{
-//    Console.WriteLine(item.Key + " : " + item.Value);
-//}
+for (int i = 0; i < names.Length; i++)
+{
+    long randInt = rand.Next(1, 4);
+    int convert = (int)randInt;
+    dictList.Add(names[i], flavorList[convert]);
+}
+foreach (var item in dictList)
+{
+    Console.WriteLine(item.Key + " : " + item.Value);
+}
 
 // ------------------------------------------ FUNDAMENTALS 3 ------------------------------------------
 
