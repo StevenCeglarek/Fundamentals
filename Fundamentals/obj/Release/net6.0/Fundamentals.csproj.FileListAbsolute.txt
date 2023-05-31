@@ -1,0 +1,15 @@
+/Users/ceglareks954/Documents/The Coding Dojo/CSharpStack/CSharpStackJune2023/Fundamentals/Fundamentals/bin/Release/net6.0/Fundamentals
+/Users/ceglareks954/Documents/The Coding Dojo/CSharpStack/CSharpStackJune2023/Fundamentals/Fundamentals/bin/Release/net6.0/Fundamentals.deps.json
+/Users/ceglareks954/Documents/The Coding Dojo/CSharpStack/CSharpStackJune2023/Fundamentals/Fundamentals/bin/Release/net6.0/Fundamentals.runtimeconfig.json
+/Users/ceglareks954/Documents/The Coding Dojo/CSharpStack/CSharpStackJune2023/Fundamentals/Fundamentals/bin/Release/net6.0/Fundamentals.dll
+/Users/ceglareks954/Documents/The Coding Dojo/CSharpStack/CSharpStackJune2023/Fundamentals/Fundamentals/bin/Release/net6.0/ref/Fundamentals.dll
+/Users/ceglareks954/Documents/The Coding Dojo/CSharpStack/CSharpStackJune2023/Fundamentals/Fundamentals/bin/Release/net6.0/Fundamentals.pdb
+/Users/ceglareks954/Documents/The Coding Dojo/CSharpStack/CSharpStackJune2023/Fundamentals/Fundamentals/obj/Release/net6.0/Fundamentals.csproj.AssemblyReference.cache
+/Users/ceglareks954/Documents/The Coding Dojo/CSharpStack/CSharpStackJune2023/Fundamentals/Fundamentals/obj/Release/net6.0/Fundamentals.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ceglareks954/Documents/The Coding Dojo/CSharpStack/CSharpStackJune2023/Fundamentals/Fundamentals/obj/Release/net6.0/Fundamentals.AssemblyInfoInputs.cache
+/Users/ceglareks954/Documents/The Coding Dojo/CSharpStack/CSharpStackJune2023/Fundamentals/Fundamentals/obj/Release/net6.0/Fundamentals.AssemblyInfo.cs
+/Users/ceglareks954/Documents/The Coding Dojo/CSharpStack/CSharpStackJune2023/Fundamentals/Fundamentals/obj/Release/net6.0/Fundamentals.csproj.CoreCompileInputs.cache
+/Users/ceglareks954/Documents/The Coding Dojo/CSharpStack/CSharpStackJune2023/Fundamentals/Fundamentals/obj/Release/net6.0/Fundamentals.dll
+/Users/ceglareks954/Documents/The Coding Dojo/CSharpStack/CSharpStackJune2023/Fundamentals/Fundamentals/obj/Release/net6.0/ref/Fundamentals.dll
+/Users/ceglareks954/Documents/The Coding Dojo/CSharpStack/CSharpStackJune2023/Fundamentals/Fundamentals/obj/Release/net6.0/Fundamentals.pdb
+/Users/ceglareks954/Documents/The Coding Dojo/CSharpStack/CSharpStackJune2023/Fundamentals/Fundamentals/obj/Release/net6.0/Fundamentals.genruntimeconfig.cache
